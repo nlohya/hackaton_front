@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Zekton Rg";
+  src: url("./assets/ZektonRg-Regular.woff2") format("woff2"),
+    url("./assets/ZektonRg-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  @apply m-0 p-0 bg-[#231F20] text-white;
+  font-family: "Zekton Rg";
+}
