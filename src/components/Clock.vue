@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-3xl">{{ time }}</h1>
+  <h1 class="text-4xl bg-gray-700 rounded-md p-3 w-fit">{{ time }}</h1>
 </template>
 
 <script setup lang="ts">
